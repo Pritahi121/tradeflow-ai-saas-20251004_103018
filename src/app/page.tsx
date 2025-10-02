@@ -61,6 +61,9 @@ export default function Home() {
             <p className="text-sm text-purple-700">
               This app is ready for auto-deployment. Any changes pushed to the repository will be reflected live on the Vercel-hosted site.
             </p>
+            <div className="mt-2 p-2 bg-green-100 rounded text-green-800 text-xs">
+              ✅ Last updated: {new Date().toLocaleString()}
+            </div>
           </div>
         </div>
       </div>
