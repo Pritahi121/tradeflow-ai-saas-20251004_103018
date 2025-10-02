@@ -14,21 +14,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z.ai Code Scaffold - AI-Powered Development",
-  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
-  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
-  authors: [{ name: "Z.ai Team" }],
+  title: "Auto-Deploy App - Live Vercel Deployment",
+  description: "Next.js application with automatic Vercel deployments. Push to GitHub and see live updates instantly.",
+  keywords: ["Vercel", "Next.js", "Auto-deploy", "TypeScript", "Tailwind CSS", "React", "Live deployment"],
+  authors: [{ name: "Auto-Deploy Team" }],
   openGraph: {
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
-    url: "https://chat.z.ai",
-    siteName: "Z.ai",
+    title: "Auto-Deploy App",
+    description: "Next.js app with automatic Vercel deployments - Push to GitHub, see live updates",
+    siteName: "Auto-Deploy App",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
+    title: "Auto-Deploy App",
+    description: "Next.js app with automatic Vercel deployments",
   },
 };
 
