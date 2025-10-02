@@ -2,6 +2,13 @@ import { supabase } from '@/lib/supabase'
 
 export async function GET() {
   try {
+    if (!supabase) {
+      return Response.json(
+        { error: 'Supabase not configured' },
+        { status: 503 }
+      )
+    }
+
     const { data, error } = await supabase
       .from('examples')
       .select('*')
@@ -21,6 +28,13 @@ export async function GET() {
 
 export async function POST(request: Request) {
   try {
+    if (!supabase) {
+      return Response.json(
+        { error: 'Supabase not configured' },
+        { status: 503 }
+      )
+    }
+
     const { name, description } = await request.json()
 
     const { data, error } = await supabase
