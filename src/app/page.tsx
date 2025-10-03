@@ -30,6 +30,8 @@ import { useState } from 'react'
 export default function LandingPage() {
   const [hoveredFeature, setHoveredFeature] = useState<number | null>(null)
   const [hoveredPlan, setHoveredPlan] = useState<number | null>(null)
+  
+  // Test change - deployment verification
 
   const features = [
     {
