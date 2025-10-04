@@ -192,6 +192,7 @@ export default function LandingPage() {
               <a href="#features" className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium">Features</a>
               <a href="#pricing" className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium">Pricing</a>
               <a href="#testimonials" className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium">Testimonials</a>
+              <Link href="/integrations" className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium">Integrations</Link>
             </nav>
 
             <div className="flex items-center space-x-4">
