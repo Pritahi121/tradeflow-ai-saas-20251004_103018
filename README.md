@@ -190,3 +190,4 @@ npm run lint     # Run ESLint
 🚀 **Push to GitHub, see changes live instantly!**
 
 Built with Next.js + Vercel + ❤️
+<!-- Test deployment Sat Oct  4 10:26:56 UTC 2025 -->
